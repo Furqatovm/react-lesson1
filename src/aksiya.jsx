@@ -1,0 +1,94 @@
+import conserva from "./assets/img/conserva.png"
+
+
+const Aksiya =() =>{
+    return <section className="max-w-[1250px] mx-auto py-[2rem] grid grid-cols-4 gap-[3.75rem]">
+        <div className="col-span-full flex justify-between items-center">
+            <h3 className="text-[#303030] text-[2.625rem] font-medium">Акции</h3>
+            <a href="#" className="text-[#46C578] text-[18px]">Cмотреть все</a>
+        </div>
+
+        <div className="col-span-1 flex flex-col gap-[2rem]">
+           <div className="flex flex-col">
+           <img src={conserva} className="w-full" alt="" />
+            <h4 className="text-[#000000] text-[18px] font-medium">Конина тушеная Улан, есть
+            возможность в 2 строки</h4>
+            <span className="text-[#46C578] text-[15px]">В наличии: 11 шт.</span>
+            <span className="text-[#303030] text-[15px]">Вес: 130гр</span>
+           </div>
+           <div className="flex items-end gap-[11px]">
+            <div className="flex flex-col">
+                <span className="text-[#D6D5D5] text-[18px]">28 030 тг.</span>
+                <span className="text-[1.5rem] text-[#FF3D3D] font-medium">24 320 тг.</span>
+            </div>
+            <button className="text-white text-[15px] py-[11px] px-[28px] bg-[#46C578] rounded-[10px]">В корзину</button>
+           </div>
+        </div>
+
+        <div className="col-span-1 flex flex-col gap-[2rem]">
+           <div className="flex flex-col">
+           <img src={conserva} className="w-full" alt="" />
+            <h4 className="text-[#000000] text-[18px] font-medium">Конина тушеная Улан, есть
+            возможность в 2 строки</h4>
+            <span className="text-[#46C578] text-[15px]">В наличии: 11 шт.</span>
+            <span className="text-[#303030] text-[15px]">Вес: 130гр</span>
+           </div>
+           <div className="flex items-end gap-[11px]">
+            <div className="flex flex-col">
+                <span className="text-[#D6D5D5] text-[18px]">28 030 тг.</span>
+                <span className="text-[1.5rem] text-[#FF3D3D] font-medium">24 320 тг.</span>
+            </div>
+            <button className="text-white text-[15px] py-[7px] px-[26.5px] bg-transparent border-[1.5px] border-[#46C578] rounded-[10px] flex gap-[20px]">
+               <span className="text-[20px] text-[#46C578]">-</span>
+               <span className="text-[20px] text-[#303030]">1</span>
+               <span className="text-[20px] text-[#46C578]">+</span>
+            </button>
+           </div>
+        </div>
+
+        <div className="col-span-1 flex flex-col gap-[2rem]">
+           <div className="flex flex-col">
+           <img src={conserva} className="w-full" alt="" />
+            <h4 className="text-[#000000] text-[18px] font-medium">Конина тушеная Улан, есть
+            возможность в 2 строки</h4>
+            <span className="text-[#46C578] text-[15px]">В наличии: 11 шт.</span>
+            <span className="text-[#303030] text-[15px]">Вес: 130гр</span>
+           </div>
+           <div className="flex items-end gap-[11px]">
+            <div className="flex flex-col">
+                <span className="text-[#D6D5D5] text-[18px]">28 030 тг.</span>
+                <span className="text-[1.5rem] text-[#FF3D3D] font-medium">24 320 тг.</span>
+            </div>
+            <button className="text-white text-[15px] py-[11px] px-[28px] bg-[#46C578] rounded-[10px]">В корзину</button>
+           </div>
+        </div>
+
+
+
+
+        <div className="col-span-1 flex flex-col gap-[2rem]">
+           <div className="flex flex-col">
+           <img src={conserva} className="w-full" alt="" />
+            <h4 className="text-[#000000] text-[18px] font-medium">Конина тушеная Улан, есть
+            возможность в 2 строки</h4>
+            <span className="text-[#46C578] text-[15px]">В наличии: 11 шт.</span>
+            <span className="text-[#303030] text-[15px]">Вес: 130гр</span>
+           </div>
+           <div className="flex items-end gap-[11px]">
+            <div className="flex flex-col">
+                <span className="text-[#D6D5D5] text-[18px]">28 030 тг.</span>
+                <span className="text-[1.5rem] text-[#FF3D3D] font-medium">24 320 тг.</span>
+            </div>
+            <button className="text-white text-[15px] py-[7px] px-[26.5px] bg-transparent border-[1.5px] border-[#46C578] rounded-[10px] flex gap-[20px]">
+               <span className="text-[20px] text-[#46C578]">-</span>
+               <span className="text-[20px] text-[#303030]">1</span>
+               <span className="text-[20px] text-[#46C578]">+</span>
+            </button>
+           </div>
+        </div>
+        
+    </section>
+}
+
+
+export default Aksiya

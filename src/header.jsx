@@ -2,7 +2,7 @@ import logo from "./assets/img/logo.png"
 
 const Header = () =>{
     return <header className="w-full">
-        <div className="max-w-[1250px] mx-auto py-[1rem] p-2 flex justify-between w-full">
+        <div className="max-w-[1250px] mx-auto py-[1.5rem] flex justify-between border-b-[2px] border-[#F0F0F0]">
 
         <div className="w-[30%] flex justify-between items-center">
             <img src={logo} alt="" className="max-w-[99px] w-full" />
@@ -30,7 +30,7 @@ const Header = () =>{
                
             </div>
             <div>
-                <button className="text-[#000000]  border border-[#C0C2CB] rounded-[21px] w-full">Войти</button>
+                <button className="text-[#000000]   border border-[#C0C2CB] rounded-[21px] py-[8px] px-[19px]">Войти</button>
             </div>
         </div>
 
