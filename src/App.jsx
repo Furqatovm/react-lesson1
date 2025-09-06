@@ -5,6 +5,8 @@ import Aksiya from "./aksiya.jsx";
 import New from "./new.jsx";
 import Famous from "./famous.jsx";
 import Footer from "./footer.jsx";
+import Shop from "./shop.jsx";
+
 const App = () => {
   return <div className="w-full">
     <Header/>
@@ -17,6 +19,7 @@ const App = () => {
 
     <Header />
     <Navbar />
+    <Shop />
     <Aksiya />
     <Footer />
   </div>
