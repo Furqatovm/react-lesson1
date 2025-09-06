@@ -1,7 +1,7 @@
 import logo from "./assets/img/logo.png"
 
 const Header = () =>{
-    return <header className="w-full">
+    return <header className="w-full  sticky top-0 left-0 right-0 bg-white">
         <div className="max-w-[1250px] mx-auto py-[1.5rem] flex justify-between border-b-[2px] border-[#F0F0F0]">
 
         <div className="w-[30%] flex justify-between items-center">

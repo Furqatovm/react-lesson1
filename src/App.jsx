@@ -14,6 +14,11 @@ const App = () => {
     <New />
     <Famous />
     <Footer />
+
+    <Header />
+    <Navbar />
+    <Aksiya />
+    <Footer />
   </div>
 }
 
