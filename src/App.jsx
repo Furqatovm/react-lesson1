@@ -4,6 +4,7 @@ import Hero from "./hero";
 import Aksiya from "./aksiya.jsx";
 import New from "./new.jsx";
 import Famous from "./famous.jsx";
+import Footer from "./footer.jsx";
 const App = () => {
   return <div className="w-full">
     <Header/>
@@ -12,6 +13,7 @@ const App = () => {
     <Aksiya />
     <New />
     <Famous />
+    <Footer />
   </div>
 }
 
